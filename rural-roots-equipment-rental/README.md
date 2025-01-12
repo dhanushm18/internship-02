@@ -28,8 +28,6 @@ rural-roots-equipment-rental
 │   ├── public
 │   ├── src
 │   └── package.json
-├── database
-│   └── seed.js
 ├── README.md
 └── .gitignore
 ```
@@ -58,20 +56,7 @@ rural-roots-equipment-rental
    npm start
    ```
 
-## API Endpoints
-- **Equipment**
-  - `GET /api/equipment`: Retrieve all equipment.
-  - `GET /api/equipment/:id`: Retrieve equipment by ID.
-  - `POST /api/equipment`: Add new equipment.
-  - `PUT /api/equipment/:id`: Update existing equipment.
-  - `DELETE /api/equipment/:id`: Delete equipment.
 
-- **Rental**
-  - `POST /api/rentals`: Create a rental record.
-  - `GET /api/rentals`: Retrieve rental information.
-
-## Sample Data
-A script is provided in `database/seed.js` to seed the MongoDB database with sample equipment and rental data for testing purposes.
 
 ## License
 This project is open-source and available for modification and distribution.
