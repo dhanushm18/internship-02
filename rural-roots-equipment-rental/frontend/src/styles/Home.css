@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.jumbotron {
+    background: url('/Users/dhanushm17/Desktop/fm/rural-roots-equipment-rental/frontend/src/assets/greenary.webp') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Section Titles */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #444;
+}
+
+/* Text Block */
+.text-block {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+/* Rent Section */
+.rent-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer .row div {
+    margin-bottom: 20px;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
